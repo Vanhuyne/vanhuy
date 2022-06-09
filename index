@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/asset/themify-icons/themify-icons.css">
 </head>
+<!-- begin nav -->
 <body>
     <div id="main">
         <div id="header">
@@ -15,7 +17,9 @@
                 <li><a href="">Band</a></li>
                 <li><a href="">Tour</a></li>
                 <li><a href="">Contact</a></li>
-                <li><a href="">More</a>
+                <li><a href="">More
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                </a>
                     <ul class="subnav">
                         <li><a href="">Merchandise</a></li>
                         <li><a href="">Extras</a></li>
@@ -23,8 +27,14 @@
                     </ul>
                 </li>
             </ul>
+             <!-- end nav -->
+             <!-- begin search buttun-->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+                </div>      
         </div>
-        <!-- tiêu đề trang -->
+          <!-- end search buttun -->
+         <!-- tiêu đề trang -->
         <div id="slider"></div>
         <div id="content"></div>
         <div id="footer"></div>
