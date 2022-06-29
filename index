@@ -35,8 +35,46 @@
         </div>
           <!-- end search buttun -->
          <!-- tiêu đề trang -->
-        <div id="slider"></div>
-        <div id="content"></div>
+        <div id="slider">
+            <div class="text-content">
+                    <h2 class="text-heading">Chicago</h2>
+                    <div class="text-desription">Thank you, Chicago - A night we won't forget.</div>
+            </div>
+        </div>   
+        <div id="content">
+            <!-- THE BAND -->
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <h2 class="section-sub-heading">We love music</h2>
+                <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="members-list">
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="/assets/css/img/section/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="/assets/css/img/section/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="/assets/css/img/section/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>  
+            <!-- TOUR DATES -->
+            <div class="content-section">
+                <h2 class="section-heading">TOUR DATES</h2>
+                <h2 class="section-sub-heading">We love music</h2>
+            </div>
+            <!-- CONTACT -->
+            <div class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <h2 class="section-sub-heading">We love music</h2>
+            </div>
+        </div>
+        
         <div id="footer"></div>
          <!-- chân web -->
     </div>
