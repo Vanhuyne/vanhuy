@@ -66,14 +66,19 @@
             <!-- TOUR DATES -->
             <div class="tour-section">
             <div class="content-section">
-                <h2 class="section-heading">TOUR DATES</h2>
-                <h2 class="section-sub-heading">We love music</h2>
+                <h2 class="section-heading text white">TOUR DATES</h2>
+                <h2 class="section-sub-heading text white">We love music</h2>
             </div>
             </div>
             <!-- CONTACT -->
             <div class="content-section">
-                <h2 class="section-heading text white">CONTACT</h2>
-                <h2 class="section-sub-heading text white">We love music</h2>
+                <h2 class="section-heading  ">CONTACT</h2>
+                <h2 class="section-sub-heading ">We love music</h2>
+                 <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October<span class="sold-out">Sold out</span></li>
+                           <li>November <span class="quantity">3</span></li>
+    </ul>
             </div>
         </div>
         
