@@ -15,6 +15,9 @@
 .clear{
     clear: both;
 }
+.text white{
+    color: white !important;
+}
 #main {
 
 
@@ -165,6 +168,8 @@
     width: 155px;
     border-radius: 4px;
 }
+.tour-section {
+    background-color:black;
 #footer {
 
 }
