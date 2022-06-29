@@ -12,11 +12,15 @@
 2.Kích thước (wight,height)
 3.Màu sắc
 4.Kiểu dáng(kiểu chữ, hình tròn, vuông*/
+.clear{
+    clear: both;
+}
 #main {
 
 
 }
 #header {
+    z-index: 1;
     height: 46px;
     background-color: rgb(1, 1, 1);
     position: fixed;
@@ -92,10 +96,74 @@
 #slider {
     /* min-height: 500px;
     background-color:#333; */
+    position: relative;
     margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/css/img/slider/slider1.jpg')   top center /cover no-repeat;
+}
+#slider .text-content{
+    position:absolute;
+    bottom: 47px;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+
+}
+#slider .text-heading{
+    font-weight: 400;
+    font-size: 24px;
+}
+#slider .text-desription{
+    font-size: 15px;
+    margin-top: 30px;
 }
 #content {
 
+}
+#content .content-section{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading{
+    font-weight: 500px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    opacity: 0.5;
+    font-style: italic;
+}
+#content .about-content{
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    
+}
+#content .members-list{
+    margin-top: 48px;
+    clear: both;
+}
+#content .member-item{
+    float: left;
+    width: 33.333333%;
+    text-align: center;    
+}
+#content .member-name{
+    font-size: 15px;
+    
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 155px;
+    border-radius: 4px;
 }
 #footer {
 
